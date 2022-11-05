@@ -7,12 +7,12 @@
   <h3 align="center">selfcare</h3>
 
   <p align="center">
-    Crie uma página para exibição de produtos
+    Página de exibição de produtos
        <br />
     <br />
-    <a href="https://github.com/thaysagomes/selfcare">Desafio</a>
+    <a href="https://github.com/luchtml/selfcare">Desafio</a>
     ·
-    <a href="https://www.linkedin.com/in/tcgms/">Contato</a>
+    <a href="https://www.linkedin.com/in/luchtml/">Contato</a>
   </p>
 </p>
 
@@ -22,7 +22,7 @@
 <a href="https://devchallenge.now.sh/">DevChallenge</a> permite que você evolua suas skills como programador!
 
 # Desafio
-Seu desafio será construir uma página para exibição de produtos de uma loja online chamada <strong>selfcare</strong>. <br><br>
+Construir uma página para exibição de produtos de uma loja online chamada <strong>selfcare</strong>. <br><br>
 
 # Techs: 
 HTML<br>
