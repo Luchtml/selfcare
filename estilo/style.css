@@ -211,4 +211,16 @@ footer {
     .produtos {
         max-width: 800px;
     }
+    .contato {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news {
+        width: 100%;
+    }
+    section.produto img {
+        width: 126.44px;
+        height: 126.44px;
+    }
 }
