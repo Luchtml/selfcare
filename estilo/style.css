@@ -1,2 +1,171 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #161616;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 927px;
+}
+
+hr {
+    #A5A1A1
+}
+
+header {
+    display: flex;
+    height: 94px;
+    width: 920px;
+    justify-content: space-between;
+}
+
+header .logo, .menu {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.logo > i{
+    font-size: 1.5rem;
+}
+
+.menu {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.menu > i {
+    color: #5CA720;
+}
+
+.banner, .banner img{
+    width: 927px;
+    height: 375px;
+}
+
+.produtos > .info-produtos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 70px;
+    align-items: center;
+    height: 94px;
+}
+
+.info-produtos h2, h3{
+    font-size: 1.1rem;
+}
+
+.produtos ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    list-style: none;
+    grid-gap: 50px;
+    margin: 70px 50px;
+}
+
+li {
+    margin: auto;
+}
+
+li > img {
+    width: 243px;
+    height: 243px;
+    border-radius: 5px;
+}
+
+li > p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+li > p > span {
+    font-size: 1.3rem;
+    color: #5CA720;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 927px;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0px 50px;
+}
+
+footer ul > li {
+    margin: 15px;
+}
+
+footer > section.contato > form {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 50px 65px;
+}
+
+input#button, input#iemail{ 
+    width: 780px;
+    height: 53px;
+    font-size: 2rem;
+    border-radius: 3px;   
+}
+
+input#iemail {
+
+    margin: 10px 0px;
+}
+
+input#button {
+    background-color: #5CA720;
+    color: white;
+ 
+    border-style: none;
+
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    
+}
+
+
+
+section.rodape {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    align-items: center;
+}
+
+section.rodape .contato {
+
+}
+
+section.rodape > .redes {
+    font-size: 3rem;
+    display: flex;
+    gap: 20px;
+}
+
+section.rodape > .redes > i {
+    color: #5CA720;
+}
+
+section.rodape > .pagamento {
+    font-size: 3rem;
+    align-items: center;
+}
